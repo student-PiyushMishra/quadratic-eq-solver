@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,body{
+  heigth:100%;
+  width:100%;
+  padding:1em 1vw;
+}
+
+form input{
+  margin-bottom:1vh;
+  border:1px solid black;
+  border-radius:none;
+  padding:0.5vh 1vw;
+}
+
+button{
+  padding:0.5vh 1vw;
+  cursor:pointer;
+}
+
+.log{
+  margin-top:1rem;
+  display:flex;
+  flex-direction:column;
+  gap:1vh;
+}
